@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">intern_project1</string>
+    <string name="name">THI BẰNG LÁI XE</string>
+    <!--login -->
+    <string name="logigError_Empty">Vui lòng không bỏ trống các ô!</string>
+    <string name="loginError_Exit">Tài khoản này không tổn tại</string>
+    <string name="loginError_Wrong_pw">Sai mật khẩu</string>
+    <string name="loginError">Lỗi</string>
+    <!--Select-->
+    <string name="SelectionError">Xảy ra lổi</string>
+    <string name="SelectionEmpty">vui lòng chọn đủ loại đề và loại bằng</string>
+    <string name="Success">Thành công</string>
+    <string name="getExamCode_Success">lấy mã bộ đề thành công!</string>
+    <string name="getExamCode_Error">lấy mã bộ đề thất bại!</string>
+    <!--Menu-->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="nav_1">thông tin 1</string>
+    <string name="nav_2">Email hỗ trợ</string>
+    <string name="nav_3">Cài đặt</string>
+    <string name="nav_4">Thông tin tài khoản</string>
+    <string name="nav_5">Đổi mật khẩu</string>
+    <string name="nav_6">Đăng xuất</string>
+    <!--Information -->
+    <string name="InforSuccess">Cập nhật thông tin thành công!</string>
+    <string name="InforError">Cập nhật thông tin thất bại!</string>
+    <string name="InforEmpty">Vui lòng nhập đủ các thông tin</string>
+    <!--Register -->
+    <string name="RegisterSuccess">Đăng ký thành công!</string>
+    <string name="RegisterError">Đăng ký thất bại!</string>
+    <string name="RegisterErrorEmpty">Vui lòng điền đủ các thông tin</string>
+    <string name="RegisterErrorExits">Email này đã tồn tại</string>
+    <!--TheoryType -->
+    <string name="TheoryTypeError">Lấy dữ liệu loại lí thuyết thất bại!</string>
+    <string name="TheoryError">Lấy dữ liệu câu hỏi lí thuyết thất bại!</string>
+    <!-- Test-->
+    <string name="InsertSuccess">Kết quả đã được lưu lại!</string>
+    <string name="getMaxError">Lỗi lấy số thứ tự lượt thi gần nhất!</string>
+    <string name="TestInsertError">Thêm kết quả thất bại</string>
+    <string name="getListError">Lấy danh sách câu hỏi thất bại</string>
+    <!--Result -->
+    <string name="getNumberError">Lấy thứ tự lần thi thất bại</string>
+    <!-- -->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

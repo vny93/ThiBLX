@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="intetn.project1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.Light.NoActionBar">
+        <activity
+            android:name="intent.project1.screens.resultDetails.ResultDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name="intent.project1.screens.theory.StudyTheoryActivity"
+            android:exported="false" />
+        <activity
+            android:name="intent.project1.screens.register.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="intent.project1.screens.trafficlaws.DetailedLawActivity"
+            android:exported="false" />
+        <activity
+            android:name="intent.project1.screens.trafficlawsType.LawSearchActivity"
+            android:exported="false" />
+        <activity
+            android:name="intent.project1.activity.WrongResultActivity"
+            android:exported="false" />
+        <activity
+            android:name="intent.project1.screens.tips.TipsActivity"
+            android:exported="false" />
+        <activity
+            android:name="intent.project1.screens.result.ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name="intent.project1.screens.test.TestActivity"
+            android:exported="false" />
+        <activity
+            android:name="intent.project1.screens.theoryType.TheoryTypeActivity"
+            android:exported="false" />
+        <activity
+            android:name="intent.project1.screens.selection.SelectionActivity"
+            android:exported="false" />
+        <activity
+            android:name="intent.project1.screens.menu.MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name="intent.project1.screens.login.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
